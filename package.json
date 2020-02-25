@@ -3,7 +3,7 @@
     "json-transform": "cli.js"
   },
   "dependencies": {
-    "JSONPath": "~0.11.2",
+    "jsonpath-plus": "~3.0.0",
     "cli": "^1.0.1"
   },
   "description": "A CLI tool to transform an object literal using JSONPath.",
@@ -27,7 +27,8 @@
     "url": "git://github.com/Igneous01/jsonpath-object-transform.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json-transform": "node cli.js"
   },
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
