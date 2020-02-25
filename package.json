@@ -1,42 +1,12 @@
 {
-  "_from": "json-transform-cli",
-  "_id": "json-transform-cli@1.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-zhuymdfKXYscyOxhDLQdFirgwWI8Xi0BJwRwUTNRjigi9T1qSBIryy5PMqcXLL9lt3e4aBEH/6x55WKZ6EQFyw==",
-  "_location": "/json-transform-cli",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "json-transform-cli",
-    "name": "json-transform-cli",
-    "escapedName": "json-transform-cli",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/json-transform-cli/-/json-transform-cli-1.0.0.tgz",
-  "_shasum": "16d038e953a134f2b39516c069760f42ae5393d0",
-  "_spec": "json-transform-cli",
-  "_where": "/Users/davidzalewski",
   "bin": {
     "json-transform": "cli.js"
   },
-  "bugs": {
-    "url": "https://github.com/moshe-immerman/jsonpath-object-transform/issues"
-  },
-  "bundleDependencies": false,
   "dependencies": {
     "JSONPath": "^0.10.0",
     "cli": "^1.0.1"
   },
-  "deprecated": false,
   "description": "A CLI tool to transform an object literal using JSONPath.",
-  "homepage": "https://github.com/moshe-immerman/jsonpath-object-transform#readme",
   "keywords": [
     "jsonpath",
     "json",
@@ -48,15 +18,16 @@
     "remap",
     "map"
   ],
+  "author": "Igneous01",
   "license": "MIT",
   "main": "index.js",
-  "name": "json-transform-cli",
+  "name": "json-transformer-cli",
   "repository": {
     "type": "git",
-    "url": "git://github.com/moshe-immerman/jsonpath-object-transform.git"
+    "url": "git://github.com/Igneous01/jsonpath-object-transform.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
