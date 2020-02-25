@@ -3,7 +3,7 @@
     "json-transform": "cli.js"
   },
   "dependencies": {
-    "JSONPath": "^0.10.0",
+    "JSONPath": "~0.11.2",
     "cli": "^1.0.1"
   },
   "description": "A CLI tool to transform an object literal using JSONPath.",
