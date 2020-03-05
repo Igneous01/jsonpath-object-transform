@@ -26,7 +26,7 @@ data.json
       "Parm1": "/some/path/to/jobfile.txt",
       "Parm2": "/some/path/to/jobOutput.txt"
     },
-    "QR" {
+    "QR": {
       "RESOURCE_1": [1,50],
       "RESOURCE_2": [2,25] 
     }
