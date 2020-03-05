@@ -31,7 +31,7 @@ data.json
       "RESOURCE_2": [2,25] 
     }
   }
-};
+}
 ```
 
 template.json
@@ -49,16 +49,16 @@ template.json
 output.json
 ```json
 {
-  "TESTSomeJob": {
+  "TEST_SomeJob": {
     "When": {
       "Months": [1,2,3,4,5,6,7,8,9,10,11,12],
       "Days": [1],
       "Method": "MONTHLY"
     },
     "Command": "sh executeJob.sh $1 $2",
-    "Arguments": ["/some/path/to/jobfile.txt", "/some/path/to/jobOutput.txt"],
+    "Arguments": ["/some/path/to/jobfile.txt","/some/path/to/jobOutput.txt"],
     "RESOURCE_1": [1,50],
-    "RESOURCE_2": [2,25] 
+    "RESOURCE_2": [2,25]
   }
 }
 ```
